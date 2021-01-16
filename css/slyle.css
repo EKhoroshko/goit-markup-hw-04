@@ -223,19 +223,19 @@ a{
 }
 
 .icon-antenna::before{
-    background-image:url(../images/antenna.png);
+    background-image:url(../images/antenna.svg);
 }
 
 .icon-clock::before{
-    background-image:url(../images/clock.png);
+    background-image:url(../images/clock.svg);
 }
 
 .icon-diagramma::before{
-    background-image:url(../images/diagram.png);
+    background-image:url(../images/diagram.svg);
 }
 
 .icon-astronaut::before{
-    background-image:url(../images/astronaut.png);
+    background-image:url(../images/astronaut.svg);
 }
 
 .warranty-plan{
