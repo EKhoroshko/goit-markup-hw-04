@@ -106,10 +106,14 @@ a{
 .site-nav a:hover, 
 .site-nav a:focus,
 .contact a:hover,
-.contact a:focus {
+.contact a:focus{
     color: var(--accent-text-color);
 }
 
+.mail-mod{
+    display: flex;
+    text-align: center;
+}
 .contact{
     display: flex;
     margin-left: auto;
@@ -205,33 +209,18 @@ a{
     margin-right: 30px;
 }
 
-/*.warranty .items::before{
-    content: '';
-    display:block;
-    height: 120px;
-    background-repeat:no-repeat;
-    background-position: center;
+.warranty-mod{
+    display: block;
+    text-align: center;
     background-color: var(--background-light-color);
     border-radius: 4px;
     margin-bottom: 30px;
 }
 
-.icon-antenna::before{
-    background-image:url(../images/antenna.svg);
+.warrantly-icon{ 
+    height: 120px;
 }
 
-.icon-clock::before{
-    background-image:url(../images/clock.svg);
-}
-
-.icon-diagramma::before{
-    background-image:url(../images/diagram.svg);
-}
-
-.icon-astronaut::before{
-    background-image:url(../images/astronaut.svg);
-}
-*/
 .warranty-plan{
     margin-top: 0px;
     margin-bottom: 10px;
