@@ -110,10 +110,29 @@ a{
     color: var(--accent-text-color);
 }
 
-.mail-mod{
-    display: flex;
-    text-align: center;
+.items .phone,
+.items .mail{
+    display: inline;
 }
+
+.phone-icon,
+.mail-icon{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.phone-txt,
+.mail-txt{
+    display: inline-block;
+    vertical-align: center;
+}
+
+a.phone:hover, 
+a.mail:hover {
+    color: var(--accent-text-color);
+    stroke: var(--accent-text-color);
+}
+
 .contact{
     display: flex;
     margin-left: auto;
