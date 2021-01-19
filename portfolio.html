@@ -21,8 +21,28 @@
                   </ul>
              </nav>
                    <ul class="contact list">
-                       <li class="items"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                       <li class="items"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                       <li class="items">
+                          <a href="mailto:info@devstudio.com" class="mail">
+                                <div class="mail-icon">
+                                    <svg  width="16" height="12">
+                                         <use href="./images/sprite.svg#mail"></use>
+                                    </svg> 
+                               </div> 
+                               <div class="mail-txt" ><p>info@devstudio.com</p></div>
+                          </a>
+                       </li>
+                       <li class="items">
+                          <div>
+                              <a href="tel:+380961111111" class="phone">
+                                 <div class="phone-icon">
+                                      <svg width="10" height="16">
+                                          <use href="./images/sprite.svg#smartphone"></use>
+                                       </svg>
+                                 </div> 
+                                 <div class="phone-txt"><p>+38 096 111 11 11</p></div>
+                              </a>
+                          </div>    
+                      </li>
                   </ul>
          </div>
       </header>
@@ -90,17 +110,44 @@
     </section>
 </main>  
 
-<footer class="footer">
-      <div class="conteiner">   
-            <a href="./index.html" class="logo-footer">Web<span class="studio">Studio</span></a>
-            <address class="address">
-                <ul class="list">
-                    <li><a class="connection" href="https://goo.gl/maps/HwD9BETJEKtcqntC8">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="mobile" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address> 
-     </div>
-</footer>
+ <footer class="footer">
+        <div class="conteiner"> 
+            <div>
+                <a href="./index.html" class="logo-footer">Web<span class="studio">Studio</span></a>
+                <address class="address">
+                    <ul class="list">
+                        <li><a class="connection" href="https://goo.gl/maps/HwD9BETJEKtcqntC8">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a class="mobile" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address> 
+            </div>
+            <div class="soc-box">
+                <h2 class="title-footer">ПРИСОЕДИНЯЙТЕСЬ</h2>
+                <div class="soc-info">
+                     <a class="soc-block" href="">
+                        <svg class="soc-link" width="20" height="20">
+                            <use href="./images/sprite.svg#instagram"></use>
+                        </svg>
+                     </a>
+                     <a class="soc-block" href="">
+                        <svg class="soc-link" width="20" height="16">
+                            <use href="./images/sprite.svg#twiter"></use>
+                         </svg>
+                    </a>
+                    <a class="soc-block" href="">
+                        <svg class="soc-link" width="10" height="20">
+                            <use href="./images/sprite.svg#facebook"></use>
+                        </svg> 
+                    </a>
+                    <a class="soc-block" href="">
+                        <svg class="soc-link"" width="20" height="20">
+                            <use href="./images/sprite.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

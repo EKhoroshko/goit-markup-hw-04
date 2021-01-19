@@ -12,6 +12,7 @@
     --background-main-color: #FFFFFF;
     --background-light-color:#F5F4FA;
     --background-hero-color: #2F303A;
+    --color-icon: #AFB1B8;
 }
 html{
     box-sizing: border-box;
@@ -119,6 +120,7 @@ a{
 .mail-icon{
     display: inline-block;
     margin-right: 10px;
+    fill:currentColor;
 }
 
 .phone-txt,
@@ -128,9 +130,11 @@ a{
 }
 
 a.phone:hover, 
-a.mail:hover {
+a.mail:hover,
+a.phone:focus,
+a.mail:focus {
     color: var(--accent-text-color);
-    stroke: var(--accent-text-color);
+    fill: var(--accent-text-color);
 }
 
 .contact{
@@ -212,7 +216,8 @@ a.mail:hover {
 }
 
 .warranty,
-.team .conteiner {
+.team .conteiner,
+.clients .conteiner {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -296,12 +301,77 @@ a.mail:hover {
 }
 
 .team-proff{
-    padding-bottom: 30px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
 
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+}
+
+.team-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+    padding-bottom: 30px;
+}
+
+.team-block{
+    display:flex;   
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill:var(--color-icon);
+}
+
+.team-block:hover,
+.team-block:focus{
+    background-color:var(--accent-text-color);
+    fill: #FFFFFF;
+}
+
+.clients-title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.clients-box,
+.soc-info {
+     display: flex;
+}
+
+.clients-link{
+     display: flex;
+     margin-right: 30px;
+     width: 170px;
+     height: 90px;
+     border: 1px solid #AFB1B8;
+     border-radius: 4px;
+     fill: var(--color-icon);
+}
+
+.clients-link:last-child,
+.soc-block:last-child {
+    margin-right: 0px;
+}
+
+.team-link,
+.clients-icon,
+.soc-link{
+      margin: auto;
+}
+
+.clients-link:hover,
+.clients-link:focus{
+       fill: var(--accent-text-color);
+       border: 1px solid var(--accent-text-color);
 }
 
 /* Footer*/
@@ -311,6 +381,7 @@ a.mail:hover {
 }
 
 .footer .conteiner{
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -349,6 +420,35 @@ a.connection{
     color:white;
 }
 
+.title-footer{
+    margin-bottom: 20px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+
+     color: #FFFFFF;
+}
+
+.soc-box{
+    margin-left: 70px;
+}
+
+.soc-block{
+    display:flex;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--background-main-color);
+}
+
+.soc-block:hover,
+.soc-block:focus{
+    background-color:var(--accent-text-color);
+}
 /* button */
 
 .button{
