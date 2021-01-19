@@ -349,7 +349,6 @@ a.mail:focus {
 
 .clients-link{
      display: flex;
-     margin-right: 30px;
      width: 170px;
      height: 90px;
      border: 1px solid #AFB1B8;
@@ -357,8 +356,12 @@ a.mail:focus {
      fill: var(--color-icon);
 }
 
-.clients-link:last-child,
-.soc-block:last-child {
+.items-clients{
+  margin-right: 30px;
+}
+
+.items-clients:last-child,
+.soc-items:last-child {
     margin-right: 0px;
 }
 
@@ -435,11 +438,15 @@ a.connection{
     margin-left: 70px;
 }
 
+.soc-items{
+    margin-right: 10px;
+}
+
 .soc-block{
     display:flex;
     width: 44px;
     height: 44px;
-    margin-right: 10px;
+    
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--background-main-color);
