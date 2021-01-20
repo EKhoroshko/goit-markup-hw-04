@@ -113,7 +113,9 @@ a{
 
 .items .phone,
 .items .mail{
-    display: inline;
+    display: flex;
+    align-items: center;
+
 }
 
 .phone-icon,
@@ -121,12 +123,6 @@ a{
     display: inline-block;
     margin-right: 10px;
     fill:currentColor;
-}
-
-.phone-txt,
-.mail-txt{
-    display: inline-block;
-    vertical-align: center;
 }
 
 a.phone:hover, 
@@ -142,8 +138,8 @@ a.mail:focus {
     margin-left: auto;
 }
 
-.contact a {
-    width: 135px;
+.phone,
+.mail{
     padding: 32px 0px;
 
     color: var(--primary-text-color);
@@ -233,16 +229,31 @@ a.mail:focus {
     margin-right: 30px;
 }
 
-.warranty-mod{
+.warranty .items::before {
+    content: '';
     display: block;
-    text-align: center;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: var(--background-light-color);
     border-radius: 4px;
     margin-bottom: 30px;
 }
 
-.warrantly-icon{ 
-    height: 120px;
+.icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+}
+
+.icon-diagramma::before {
+    background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
 }
 
 .warranty-plan{
