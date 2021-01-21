@@ -336,7 +336,9 @@ a.mail:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    display:flex;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
     
     fill:var(--color-icon);
@@ -369,6 +371,8 @@ a.mail:focus {
      display: flex;
      width: 100%;
      height: 100%;
+     justify-content: center;
+     align-items: center;
      border: 1px solid #AFB1B8;
      border-radius: 4px;
      fill: var(--color-icon);
@@ -384,12 +388,6 @@ a.mail:focus {
 .items-clients:last-child,
 .soc-items:last-child {
     margin-right: 0px;
-}
-
-.team-link,
-.clients-icon,
-.soc-link{
-      margin: auto;
 }
 
 .clients-link:hover,
@@ -469,6 +467,8 @@ a.connection{
     display:flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
     
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -510,9 +510,11 @@ a.connection{
 }
 
 .filter {
-    padding-top: 94px;
-    padding-bottom: 94px;
     border-top: 1px solid #ECECEC;
+}
+
+.filter .conteiner{
+    padding: 94px 0px;
 }
 
 .filter-list {
@@ -534,7 +536,6 @@ a.connection{
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-    margin-bottom: -30px;
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -567,9 +568,8 @@ a.connection{
 }
 
 .progect-title {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px 24px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -581,10 +581,13 @@ a.connection{
 .progect-text {
     margin-top: 4px;
     margin-bottom: 0px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+
 
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
+}
+
+.progect-box{
+    padding: 20px 24px;
 }
