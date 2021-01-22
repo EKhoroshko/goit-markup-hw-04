@@ -77,7 +77,8 @@ a{
 
 .site-nav,
 .header-page .conteiner,
-.way{
+.way,
+.contact{
     display: flex;
     align-items: center;
 }
@@ -96,7 +97,9 @@ a{
 }
 
 .site-nav a {
-    padding: 32px 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items:center;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -139,7 +142,8 @@ a.mail:focus {
 
 .phone,
 .mail{
-    padding: 32px 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: var(--primary-text-color);
     font-weight: 500;
@@ -404,6 +408,7 @@ a.mail:focus {
 
 .footer .conteiner{
     display: flex;
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -443,6 +448,7 @@ a.connection{
 }
 
 .title-footer{
+    margin-top: 0px;
     margin-bottom: 20px;
      font-weight: 700;
      font-size: 14px;
@@ -454,7 +460,7 @@ a.connection{
 }
 
 .soc-box{
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .soc-items{
