@@ -36,20 +36,20 @@ a{
   text-decoration: none;
 }
 
-.list,
-.filter-list,
-.list-project{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
 .conteiner{
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.list,
+.filter-list,
+.list-project{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .visually-hidden{
@@ -177,6 +177,11 @@ a.mail:focus {
 .hero-conteiner{
        padding-top: 202px;
        padding-bottom: 206px;
+       margin-left: auto;
+       margin-right: auto;
+       width: 1200px;
+       padding-left: 15px;
+       padding-right: 15px;
 }
 
 .hero-title{
@@ -186,7 +191,7 @@ a.mail:focus {
     margin-bottom: 22px;
     max-width: 700px;
     
-    color: #FFFFFF;
+    color: var(--background-main-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -204,7 +209,7 @@ a.mail:focus {
     border-radius: 4px;
     border-color: transparent;
 
-    color:#FFFFFF;
+    color: var(--background-main-color);
     background-color: var(--accent-text-color);
     font-family: Roboto,sans-serif;
     font-weight: 700;
@@ -217,11 +222,14 @@ a.mail:focus {
     cursor:pointer;
 }
 
-.warranty .conteiner,
-.team .conteiner,
-.clients .conteiner {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.warrantly-conteiner{
+     padding-top: 94px;
+     padding-bottom: 94px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 1200px;
+     padding-left: 15px;
+     padding-right: 15px;
 }
 
 .warranty .list,
@@ -278,8 +286,13 @@ a.mail:focus {
     font-size: 14px;
     line-height: 1.71;
 }
-.occupation .conteiner{
+.occupation-conteiner{
     padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .occupation .section-title,
@@ -288,12 +301,23 @@ a.mail:focus {
 }
 
 .occupation .items{
+    display: block;
     margin-right: 30px;
     line-height: 0px;
 }
 
 .team{
     background-color:var(--background-light-color);
+}
+
+.team-conteiner{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .team .items{
@@ -306,8 +330,13 @@ a.mail:focus {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team img{
+    display: block;
+}
+
 .card{
   padding: 30px 32px;
+  background-color: var(--background-main-color)
 }
 
 .team-name{
@@ -351,7 +380,17 @@ a.mail:focus {
 .team-block:hover,
 .team-block:focus{
     background-color:var(--accent-text-color);
-    fill: #FFFFFF;
+    fill: var(--background-main-color);
+}
+
+.client-conteiner {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .clients-title{
@@ -377,7 +416,7 @@ a.mail:focus {
      height: 100%;
      justify-content: center;
      align-items: center;
-     border: 1px solid #AFB1B8;
+     border: 1px solid var(--background-main-color);
      border-radius: 4px;
      fill: var(--color-icon);
 }
@@ -406,11 +445,16 @@ a.mail:focus {
     background-color: var(--background-hero-color);
 }
 
-.footer .conteiner{
-    display: flex;
-    align-items: baseline;
+.footer-conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+    align-items: baseline;
 }
 
 .logo-footer {
@@ -424,7 +468,7 @@ a.mail:focus {
 }
 
 .logo-footer .studio {
-    color: white;
+    color: var(--background-main-color);
 }
 
 .address a{
@@ -444,7 +488,7 @@ a.mail:focus {
 }
 
 a.connection{
-    color:white;
+    color: var(--background-main-color);
 }
 
 .title-footer{
@@ -456,17 +500,17 @@ a.connection{
      letter-spacing: 0.03em;
      text-transform: uppercase;
 
-     color: #FFFFFF;
-}
-
-.soc-box{
-    padding-left: 70px;
+     color: var(--background-main-color);
 }
 
 .soc-items{
     margin-right: 10px;
     width: 44px;
     height: 44px;
+}
+
+.boxxes{
+    margin-right: 70px;
 }
 
 .soc-block{
@@ -503,7 +547,7 @@ a.connection{
 
 .button:hover,
 .button:focus{
-    color:white;
+    color: var(--background-main-color);
     outline: none;
     background-color: var(--accent-text-color);
     cursor:pointer;
@@ -519,8 +563,14 @@ a.connection{
     border-top: 1px solid #ECECEC;
 }
 
-.filter .conteiner{
-    padding: 94px 0px;
+.filter-conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .filter-list {
@@ -554,7 +604,7 @@ a.connection{
 
     line-height: 0px;
     background-color: var(--background-main-color);
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--background-main-color);
     box-sizing: border-box;
 }
 
@@ -587,7 +637,6 @@ a.connection{
 .progect-text {
     margin-top: 4px;
     margin-bottom: 0px;
-
 
     color: var(--primary-text-color);
     font-size: 16px;
