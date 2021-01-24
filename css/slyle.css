@@ -189,12 +189,12 @@ a.mail:focus {
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 22px;
-    max-width: 700px;
+    max-width: 696px;
     
     color: var(--background-main-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.37;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -304,6 +304,39 @@ a.mail:focus {
     display: block;
     margin-right: 30px;
     line-height: 0px;
+}
+
+.occupation-box1,
+.occupation-box2,
+.occupation-box3{
+    position: relative;
+}
+    
+.occupation img{
+    display: block;
+}
+
+.occupation-title{
+    position: absolute;
+    bottom: 0;
+    min-width: 370px;
+    background: rgba(47, 48, 58, 0.8);
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 83px;
+    padding-right: 82px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--background-main-color);
 }
 
 .team{
@@ -594,6 +627,10 @@ a.connection{
     margin-right: -30px;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+.items-project img{
+    display: block;
 }
 
 .items-project {
